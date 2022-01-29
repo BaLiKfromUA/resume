@@ -29,5 +29,5 @@ jobs:
           git config --global user.email 'valentin.yukhymenko@gmail.com'
           git add Valentyn_Yukhymenko.pdf
           git add ./legacy/**
-          git commit -m "Automated compilation"
+          git commit -m "update of resume"
           git push
