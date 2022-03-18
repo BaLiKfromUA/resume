@@ -1,92 +1,69 @@
 \documentclass{resume} % Use the custom resume.cls style
 
-\usepackage[left=0.4 in,top=0.4in,right=0.4 in,bottom=0.4in, paperheight=11.5in]{geometry} % Document margins% Document margins
+\usepackage[left=0.4 in,top=0.4in,right=0.4 in,bottom=0.4in]{geometry} % Document margins
 
 \newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}} 
 \newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
-\name{Valentyn Yukhymenko} % Your name
-% You can merge both of these into a single line, if you do not have a website.
+\name{Valentyn Yukhymenko}
 \address{+380 98 272 51 73 \\ \href{mailto:valentin.yukhymenko@gmail.com}{valentin.yukhymenko@gmail.com} \\ \href{https://www.linkedin.com/in/balikfromua/}{LinkedIn} \\ \href{https://github.com/BaLiKfromUA}{GitHub}} 
- % Your phone number, email, linkedin, and (optional) website
 
 \begin{document}
-%----------------------------------------------------------------------------------------
-%	EDUCATION SECTION
-%----------------------------------------------------------------------------------------
 
 \begin{rSection}{Education}
-{\bf Bachelor of  Computer Engineering}, Kharkiv National University of Radioelectronics \hfill {\bf Expected July 2022}\\
-Major --— Cybersecurity \hfill {\bf GPA: 3.75/4}
+{\bf Bachelor of  Computer Engineering}, Kharkiv National University of Radioelectronics\hfill {\bf 2017 -- 2022}\\
+Major -- Cybersecurity \hfill {\bf GPA: 3.8/4}
 \end{rSection}
-\begin{rSection}{Technical Skills}
-Java, Python, Golang, JavaScript, C++ (basics), Bash, SQL, Git, Linux, Docker, Spring framework, Vue.js.
+
+\begin{rSection}{Skills}
+Java, C++, Golang, Python, JavaScript, Bash, SQL, Git, Linux, Docker.
 \end{rSection}
+
 \begin{rSection}{EXPERIENCE}
 \vspace{1mm}
-\textbf{Software Engineer Intern} \hfill July 2021 -- September 2021\\
-Bloomberg L.P. \hfill \textit{London, UK}\\
-\vspace{-3.5mm}
- \begin{itemize}[topsep=2pt, partopsep=0pt, itemsep=7pt,parsep=-5pt]
-     \item Built distributed system that integrates post-deployment checks into automated deployment pipeline using Golang, Python, JavaScript, Kafka.
-    \item Presented this project at 5 internal events in order to encourage developers to use new integration.
- \end{itemize}
 
-\textbf{Software Engineer} \hfill June 2020 -- May 2021\\
-Bookmap \hfill \textit{remote / Ukraine}
+\textbf{Software Engineer} \hfill June 2020 -- Present\\
+\href{{https://bookmap.com/}}{Bookmap} -- trading platform \hfill \textit{remote / Ukraine}
  \begin{itemize}[topsep=2pt, itemsep=7pt,parsep=-5pt]
-     \item Developed, released and maintained the \href{{https://bookmap.com/knowledgebase/docs/Addons-Multibook}}{Multibook} add-on which led to 50\% increase in monthly paid subscriptions and 35\% increase in annual subscriptions during Q2 2021;
-     \item Leaded the migration of the Multibook from client-side to server-side;
-     \item Designed automated configuration logic of Bookmap Desktop and included it into the Windows installer using Java and NSIS;
-    \item Implemented automated build pipeline for macOS using Gitlab CI/CD, Bash, Groovy (Gradle) and jpackage. 
+     \item Developed, released and maintained the \href{{https://bookmap.com/knowledgebase/docs/Addons-Multibook}}{Multibook} addon which contributed to a 50\% increase in new monthly paid subscriptions and 35\% increase in new annual subscriptions during Q2 2021;
+     \item Leaded the migration of the Multibook from client-side to server-side which led to a 30-50\% decrease in CPU and memory consumption on the user side;
+     \item Improved first-time user experience during new product promotion campaigns by designing and implementing automated configuration module for the main product using Java and NSIS;
+    \item Refactored and extended existed plugin delivery system in order to provide internal and external developers with a centralized way to distribute their addons.
+\end{itemize}
+
+\textbf{Software Engineering Intern} \hfill July 2021 -- September 2021\\
+\href{{https://www.bloomberg.com/company}}{Bloomberg L.P} -- the global leader in business and financial data, news and insight \hfill \textit{London, UK}\\
+\vspace{-3.5mm}
+ \begin{itemize}[topsep=1pt, itemsep=7pt,parsep=-5pt]
+     \item Increased reliability of automated deployment by building a distributed system that integrates post-deployment checks into deployment pipeline using Golang, Python, JavaScript, Kafka;
+    \item Presented this project to an audience of 150 developers in total at 5 internal events in order to encourage usage of the new integration.
  \end{itemize}
  
-% \textbf{Software Engineer} \hfill Jan 2020 - June 2020\\
-% Software Station \hfill \textit{Kharkiv, Ukraine}\\
-% \vbox{
-%     \vspace{+0.15cm}
-%     \hbox{\hspace{+0.45cm}Internal mobile and web applications development using Flutter, Dart and Firebase.}
-% }
-
-\textbf{Software Engineer Intern} \hfill March 2019 -- May 2019\\
-Aimprosoft \hfill \textit{Kharkiv, Ukraine}
+\textbf{Software Engineering Intern} \hfill March 2019 -- May 2019\\
+\href{{https://www.aimprosoft.com/}}{Aimprosoft} -- outsource enterprise software development \hfill \textit{Kharkiv, Ukraine}
  \begin{itemize}[topsep=2pt, itemsep=7pt,parsep=-5pt]
      \item Created Admin Dashboard using Java EE Servlets, JSP, JSTL, JDBC, Hibernate, Spring, OVal validator;
      \item Implemented from scratch some parts of Spring framework in order to apply design patterns and improve knowledge of framework.
  \end{itemize}
-
 \end{rSection} 
 
-%----------------------------------------------------------------------------------------
-\begin{rSection}{PROJECTS}
-    \href{https://bookmap.com/knowledgebase/docs/Addons-Multibook}{Multibook} {is a synthetic instrument that shows the consolidated state of several order books in real-time.  }
-    \begin{itemize}[topsep=2pt, itemsep=7pt,parsep=-5pt]
-        \item Implemented backend and GUI parts using Java, Swing and Bookmap L1 API;
-        \item Created ecosystem around this project: health-check/debugging tools, automatic configuration, server-side streaming of data;
-        \item Designed custom algorithm for real-time consolidation.
-    \end{itemize} 
-\end{rSection} 
-
-%----------------------------------------------------------------------------------------
 \begin{rSection}{Activities/Leadership} 
 \textbf{Co-founder of university startup ``Sounce''} \hfill May 2019 -- February 2020
 \begin{itemize}[topsep=2pt, itemsep=7pt,parsep=-5pt]
     \item Created MVP of mobile application, built infrastructure for data gathering and ML integration;
     \item Presented project, communicated with investors, social media, customers;
-    \item Won several local competitions and got to the finals of international funding rounds as a team member.
+    \item Won 5 local competitions and got to the finals of 2 international funding rounds as a team member.
 \end{itemize} 
-
 \end{rSection}
-%----------------------------------------------------------------------------------------
+
 \begin{rSection}{Honors/Awards} 
 \begin{itemize}
-    \item Won 1st place out of 10 with a team of 3 students at IC Night Hackathon 2019 organized by Microsoft Student Partners Ukraine. In two days we prototyped a mobile application that can detect fake accounts on Instagram.
-    % In two days we prototyped an application that can translate some words from the language of the deaf-and-mute into English.
-    \item	Member of the finalist team at  \href{https://venturecup.dk/uswc/}{University Startup World Cup 2019} among 40 teams from all over the world. We took 4rd place out of 10 teams in Social Project section and won Social Media Award.
-     \item 	Won 3rd place out of 11  with a team of 5 students at AI Hackathon 2019 conducted by local organizations. In two days we prototyped an application for deaf-and-mute language translation in real-time.
+    \item\textbf{Winner} -- 1st place out of 10 teams at IC Night Hackathon 2019 organized by Microsoft Student Partners Ukraine.\\ 
+    In two days my team prototyped a mobile application that can detect fake accounts on Instagram.
+    \item\textbf{Finalist} -- member of the finalist team at  \href{https://venturecup.dk/uswc/}{University Startup World Cup 2019} among 40 teams from all over the world.\\
+    My team took 4rd place out of 10 teams in Social Project section and won Social Media Award.
+     \item\textbf{Winner} -- 3rd place out of 11  with a team of 5 students at AI Hackathon 2019 conducted by local organizations. \\
+     In two days my team prototyped an application for deaf-and-mute language translation in real-time.
 \end{itemize}
-
-
-
 \end{rSection}
 
 \end{document}
